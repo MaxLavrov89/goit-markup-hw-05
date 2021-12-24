@@ -204,6 +204,8 @@
   .hero-button:hover {
     background: #1c8be6;
   }
+ 
+
   .backdrop {
     position: fixed;
     top: 0;
@@ -213,6 +215,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
   }
   .backdrop.is-hidden {
     opacity: 0;
@@ -226,6 +229,17 @@
     width: 528px;
     height: 581px;
     background-color: #ffffff;
+  }
+  .close-hero-button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    margin-top: 8px;
+    margin-right: 8px;
   }
   /*Преймущества*/
   .section-advantage {
